@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/hanse-kim/replace-keys/issues"
   },
-  "homepage": "https://github.com/hanse-kim/replace-keys#readme"
+  "homepage": "https://github.com/hanse-kim/replace-keys#readme",
+  "dependencies": {
+    "map-obj": "^5.0.2"
+  }
 }
