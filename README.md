@@ -12,8 +12,8 @@ const obj = {
 };
 
 replaceKeys(obj, {
-  foo: 'Foo',
-  bar: (key: string) => { key.slice(1) },
+  foo: 'FOO',
+  bar: (key) => key.slice(1),
 });
 // result: { FOO: { ar: 'baz' } }
 ```
