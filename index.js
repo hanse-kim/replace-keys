@@ -1,6 +1,6 @@
 'use strict';
 
-const mapObject = require('map-obj');
+import mapObject from 'map-obj';
 
 function replaceKeys(target, replaceKeyMap, options = { deep: true }) {
   return mapObject(
@@ -21,4 +21,4 @@ function replaceKeys(target, replaceKeyMap, options = { deep: true }) {
   );
 }
 
-modules.exports = replaceKeys;
+export default replaceKeys;
